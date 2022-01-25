@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>HTML ATtributes and Links</title>
+</head>
+  <body>
+    <h2 id="top">HTML Attributes</h2>
+    <!-- The 'id' attribute assigns a uniquely named identifier to an element -->
+    <!-- Syntax: attributeName = "value" -->
+    <p align="center">
+      <em>Modifiers of Elements' Behaviors</em>
+    </p>
+
+    <h2>HTML Images</h2>
+
+    <div align="center">
+    <a href="https://place-puppy.com/" target="_blank"><img src="https://place-puppy.com/300x300"></a>
+    <!-- The default behavior ng anchor tag is ilo-load nya sa same tab -->
+    <!-- The 'target' attribute defines kung saan bubuksan yung link na nakaindicate sa may anchor. Reference: https://www.w3schools.com/tags/att_form_target.asp#:~:text=The%20target%20attribute%20specifies%20a,window%2C%20or%20inline%20frame).-->
+      <p>
+        <code>
+          &lt;img src="https://place-puppy.com/300x300&gt;
+        <!-- this command adds an image by absolute linking, meaning galing yung picture sa ibang domain or galing online -->
+        </code>
+      </p>
+      <p>
+        <em>An image can be shown using &lt;img&gt; tag along with its <strong>src</strong> attribute.</em>
+      <!-- img tag used to include images. Creates an inline element. -->
+      <!-- src attribute accepts URL from an online resource or local images. -->
+      </div>
+      <!-- adds an image using relative linking -->
+
+      </p>
+    
+        <img src="./images/inazuma.png" height="250" width="450">
+
+      <p>
+        <code>
+          &lt;img src="./images/inazuma.png" height="250" width="450"&gt;
+        </code>
+      </p>
+
+      <p>
+        Valid image extensions are the following:
+      </p>
+
+      <ol type="i" reversed>
+        <li>png</li>
+        <li>jpg/jpeg</li>
+        <li>bmp</li>
+        <li>svg</li>
+        <li>tiff</li>
+        <li>webp</li>
+      </ol>
+      <!-- type attribute changes the numbered points of the ol elements -->
+      <!-- type value can be 1 (numeric), A (capital letter), a (lowercase letters), I (roman numerals capital), i (roman numerals lowercase) -->
+    
+      <h2>HTML Links</h2>
+
+      <h4>Absolute Link</h4>
+        <!-- Creates a hyperlink element that redirects to an outside page/domain -->
+        <a href="https://zuitt.co">I'm a hyperlink</a>
+        <!-- The 'a' tag means anchor tag, creates a hyperlink element when clicked, will redirect to a different page-->
+        <!-- The 'href' attribute means hypertext reference, ito yung mismong URL na gagawing hyperlink tapos yung nasa loob ng 'a' tag, yun yung naka-display  -->
+
+      <h4>Relative Link</h4>
+
+        <p>Go to <a href="./link.html">link.html</a> page</p>
+
+        <p>Go to <a href="./images/index.html">image/index.html</a> page.</p>
+
+        <p>Go to <a href="#top">top</a>.</p>
+    </body>
+</html>
